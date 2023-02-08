@@ -1,6 +1,8 @@
 import React from "react";
 
-function MovieCard({ title, posterSrc, genres }) {
+function MovieCard({ title, posterSrc, genres }) 
+//we destructured props
+{
   return (
     <div className="movie-card">
       <img src={posterSrc} alt={title} />
